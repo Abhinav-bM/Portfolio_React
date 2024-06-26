@@ -1,8 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/Screenshot 2024-06-22 124231.png";
-import projImg2 from "../assets/img/Screenshot 2024-06-22 145314.png";
+import projImg2 from "../assets/img/Screenshot 2024-06-26 085923.png";
 import projImg3 from "../assets/img/Screenshot 2024-06-22 150852.png";
+import seminarhall from  "../assets/img/Screenshot 2024-06-26 084015.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -24,6 +25,11 @@ export const Projects = () => {
         "A Kanban app is a visual tool for managing tasks and workflows, using a board and card system to track progress. It enhances productivity by providing clear visibility into task   status and progress.",
       imgUrl: projImg2,
     },
+    {
+      title : "Seminar-Hall booking",
+      description : "Developed a seminar hall booking app using React, enabling users to efficiently reserve and manage hall bookings online. The app features a user-friendly interface and real-time booking updates.",
+      imgUrl : seminarhall
+    }
   ];
 
   const taskBased = [
